@@ -1,0 +1,176 @@
+body{
+    overflow-x: hidden;
+}
+.navigation{
+    padding-top: 20px;
+}
+.navigation .nav .nav-item .nav-link{
+    color: black;
+    transition: 0.1s;
+}
+.navigation .nav .nav-item .nav-link:hover{
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+.navigation .nav .register{
+    background-color: #2563eb;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 3px;
+}
+.nav-item-btn{
+    padding: 7px 0px;
+}
+.banner{
+    background-color: #fef6f9;
+}
+.banner .text{
+    padding-top: 50px;
+    padding-left: 100px;
+    line-height: 0.9;
+    font-family: poppins;
+}
+.banner .para1{
+    color: #1774fd;
+    font-size: small;
+}
+.banner .para2{
+    font-weight: Bold;
+    font-size: 3rem;
+}
+.banner .para2 .ex{
+    color: #1774fd;
+}
+.banner .schedule{
+    background-color: #2563eb;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    padding: 5px;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color: #91acf2;
+    border-radius: 50%;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f9fa;
+}
+.cards .crd{
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.3s;
+}
+.cards .crd:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.cards .crd .number{
+    color: #0d6efd;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.cards .crd .txt{
+    font-size: 0.7rem;
+}
+.cards-2 .card{
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+.cards-2 .card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.cards-2 .btn{
+    color: #4f81ef;
+    border: 1px solid;
+    width: 16rem;
+}
+.cards-2 .btn:hover{
+    color: white;
+    border: 1px solid;
+    width: 16rem;
+    background-color: #4f81ef;
+}
+.events{
+    padding: 50px;
+}
+.events .one, .about .text .one, .testimonials .one, .contact .contact-head .one{
+    background-color: #f5f6f8;
+    color: #65a6fe;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+.events .two, .testimonials .two, .contact .contact-head .two{
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+.events .three, .testimonials .three, .contact .contact-head .three{
+    font-weight: lighter;
+}
+.gallery img{
+    width: 350px;
+}
+.about{
+    margin-top: 50px;
+}
+.testimonials{
+    background-color: #f8f9fa;
+}
+.testimonials .test-carousel .txt{
+    width: 500px;
+    background-color: white;
+}
+.ready{
+    background-image: url(images/12.png);
+    background-size: cover;
+    color: white;
+    background-color: #2253cf;
+    min-height: 327px;
+}
+.ready .r-txt{
+    margin-top: 122px;
+}
+.contact-footer input, .contact-footer .msg{
+    width: 450px;
+}
+.contact-footer .first{
+    background-color: #f8fafc;
+    margin-bottom: 10px;
+}
+.contact-footer .first img{
+    width: 50px;
+}
+.contact-footer .first .side .up-txt{
+    font-size: 1.1rem;
+}
+.contact-footer .first .side .btm-txt{
+    font-size: 0.8rem;
+}
+.footer{
+    background-color: #212529;
+    color: white;
+}
+.footer ul{
+    padding-left: 0px;
+}
+.footer li{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+.footer .form-control{
+    background-color: #383b3f;
+}
+.footer .form-control::placeholder{
+    color: white;
+}
